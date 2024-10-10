@@ -15,7 +15,7 @@ function App() {
         if (savedCount) {
             setCount(parseInt(savedCount, 10));
         }
-    }, []);
+    }, [savedCount]);
 
     useEffect(() => {
         localStorage.setItem('clickCount', String(count));

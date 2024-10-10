@@ -7,7 +7,7 @@ import './App.css';
 function App() {
     let savedCount = localStorage.getItem('clickCount') ?? '0';
 
-    // Состояния для счётчика и текущего изображения
+  
     const [count, setCount] = useState<number>(parseInt(savedCount, 10));
     const [currentImage, setCurrentImage] = useState<string>(huyak);
 
@@ -23,12 +23,12 @@ function App() {
 
     // Обработчик нажатия кнопки
     const handleMouseDown = () => {
-        setCurrentImage(huyak_2); // Меняем изображение, пока кнопка нажата
+        setCurrentImage(huyak_2);
     };
 
     const handleMouseUp = () => {
         setCount(count + 1);
-        setCurrentImage(huyak); // Возвращаем изображение после отпускания кнопки
+        setCurrentImage(huyak);
     };
 
     return (

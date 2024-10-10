@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hayk/static/css/main.bb16a139.css",
+    "main.js": "/hayk/static/js/main.ef4d88fc.js",
+    "static/js/453.a4cfa529.chunk.js": "/hayk/static/js/453.a4cfa529.chunk.js",
+    "static/media/logo_2.png": "/hayk/static/media/logo_2.4413fe07ca3d3b1d2ebc.png",
+    "static/media/logo.png": "/hayk/static/media/logo.646419b67513adb7bb90.png",
+    "index.html": "/hayk/index.html",
+    "main.bb16a139.css.map": "/hayk/static/css/main.bb16a139.css.map",
+    "main.ef4d88fc.js.map": "/hayk/static/js/main.ef4d88fc.js.map",
+    "453.a4cfa529.chunk.js.map": "/hayk/static/js/453.a4cfa529.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb16a139.css",
+    "static/js/main.ef4d88fc.js"
+  ]
+}
